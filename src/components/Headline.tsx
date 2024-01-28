@@ -4,7 +4,7 @@ import { FaExpand } from "react-icons/fa";
 
 function Headline() {
   return (
-    <div className="flex flex-col items-center border-2 rounded-tl-xl rounded-tr-xl">
+    <div className="flex flex-col items-center border-2 border-b-0 rounded-tl-xl rounded-tr-xl">
       <h2 className="text-[#a0181d] text-4xl uppercase font-medium">
         production eye
       </h2>
