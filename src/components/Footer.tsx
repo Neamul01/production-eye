@@ -1,8 +1,11 @@
-import React from "react";
+import { FaAnglesDown } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center border-2 border-t-0 rounded-bl-xl rounded-br-xl">
+    <div className="flex flex-col items-center border-2 border-t-0 rounded-bl-xl rounded-br-xl relative">
+      <p className="absolute top-2 left-5">
+        <FaAnglesDown size={24} className="text-[#b99b58]" />
+      </p>
       <h2 className="text-gray-600 text-3xl uppercase font-medium">
         global rundown
       </h2>
