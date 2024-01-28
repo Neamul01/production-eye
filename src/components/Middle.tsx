@@ -2,7 +2,7 @@ import React from "react";
 
 function Middle() {
   return (
-    <div className="border-t-[10px] border-b-[10px] border-gray-400 flex flex-col gap-3 bg-gray-200">
+    <div className="border-t-[10px] border-b-[10px] border-gray-400 flex flex-col gap-3 bg-gray-200 max-h-[590px] overflow-y-scroll overflow-x-hidden">
       <div className="flex justify-center items-center mt-0">
         <p className="text-3xl font-medium uppercase tracking-wider px-3">
           segiun <span className="text-gray-600">: 12</span>
